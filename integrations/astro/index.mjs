@@ -2,8 +2,7 @@ import {
 	renderSlotToString,
 	renderToString,
 } from "astro/runtime/server/index.js";
-import { addEditableComponentRenderer } from "../../helpers/cloudcannon";
-
+import { addEditableComponentRenderer } from "../../dist/helpers/cloudcannon.js";
 /**
  * Queue of React components waiting to be rendered
  * @type {((node: Element) => void)[]}
